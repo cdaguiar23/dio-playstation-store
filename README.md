@@ -1,27 +1,60 @@
-# AngularBlog
+# Recriação da Interface da PlayStation Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Este projeto é uma recriação da interface da PlayStation Store, desenvolvido em Angular 14, com foco em uma experiência visual e interativa inspirada na loja oficial da PlayStation. O projeto utiliza práticas modernas de desenvolvimento frontend para proporcionar uma interface fluida e responsiva.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Catálogo de Jogos**: Apresenta uma lista de jogos com informações de título, tipo de console e preço.
+- **Interface Responsiva**: Design otimizado para dispositivos móveis e desktops.
+- **Componentização**: Uso de componentes reutilizáveis, como cards de jogos e seções de preços, para garantir consistência visual.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 14**: Framework principal utilizado para o desenvolvimento frontend.
+- **TypeScript**: Linguagem para tipagem estática, garantindo maior robustez no código.
+- **HTML5 e CSS3**: Utilizados para estrutura e estilização da interface.
+- **SCSS**: Permite uma organização modular e eficiente do CSS.
 
-## Build
+## Estrutura de Pastas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- `src/app/components`: Contém os componentes da interface, como `card-pricing` e `game-list`.
+- `src/app/services`: Gerenciamento de dados e integração.
+- `src/assets`: Armazena recursos de mídia e arquivos estáticos.
 
-## Running unit tests
+## Instalação e Execução
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para rodar o projeto localmente, siga os passos abaixo:
 
-## Running end-to-end tests
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+   ```
+   
+2. **Instale as dependências:**:
+  ```bash
+  npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. **Execute o servidor de desenvolvimento:**:
+  ```bash
+  ng serve
+     ```
+Acesse [http://localhost:4200/](http://localhost:4200/) no navegador para visualizar o projeto.
 
-## Further help
+## Scripts Disponíveis
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- `ng serve`: Inicia o servidor de desenvolvimento.
+- `ng build`: Compila o projeto para produção na pasta `dist/`.
+- `ng test`: Executa os testes unitários com o Karma.
+- `ng lint`: Verifica a qualidade do código com as regras de linting configuradas.
+
+## Contribuição
+
+Contribuições são bem-vindas! Para melhorias, correções ou novas funcionalidades, por favor, abra uma _issue_ ou envie um _pull request_ com suas sugestões.
+
+## Licença
+
+Este projeto é licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.
+
+
