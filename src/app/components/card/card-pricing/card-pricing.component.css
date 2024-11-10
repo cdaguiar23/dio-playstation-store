@@ -21,9 +21,13 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
-.card-pricing__value_console > span {
+.card_pricing__value__console {
     display: flex;
+    flex-direction: row;
+}
+
+.card_pricing__value__console > span {
+    font-weight: bolder;
     color: aqua;
     margin-right: 10px;
 }
